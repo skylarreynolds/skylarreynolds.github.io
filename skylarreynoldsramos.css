@@ -1,32 +1,41 @@
 @font-face {
     font-family: "AppleGaramond"; 
-    src: url(fonts/AppleGaramond.ttf);
+    src: url(fonts/AppleGaramond-Light.ttf);
 }
 
 a { text-decoration: none;color:inherit;}
-b   { text-decoration: underline;}
+a:hover { COLOR:  rgb(16,203,215); TEXT-DECORATION: none; font-weight: none }
+
+a.underline{ text-decoration: underline;}
+
+html{ width: 100vw;  margin: 0;  padding: 0; }
 
 
 body {
     text-decoration:none;
     font-family: "AppleGaramond";
-    background-color: rgb(16,203,215);
     position: relative;
-    top: 70px;
+    top: 35px;
     left: 35px;
+    overflow-x: hidden; max-width: 100vw;  width: 100vw;  margin: 0;  padding: 0; 
+    background-color: rgb(242,242,228);
 }
 
 h1{
-font-size:32px;
-top: 100px;
+font-size:35px;
+top: 80px;
 }
 
 h2{
-font-size:32px;}
+font-size:35px;}
+
+h3{
+font-size:35px;
+}
 
 ul {
     position: relative;
     left: -40px;
-    top: 75px;
-font-size:30px;
+    top: 10px;
+font-size:35px;
     text-decoration:none;}

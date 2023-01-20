@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "AppleGaramond"; 
+    src: url(fonts/AppleGaramond.ttf);
+}
+
+a { text-decoration: none;color:inherit;}
+b   { text-decoration: underline;}
+
+
+body {
+    text-decoration:none;
+    font-family: "AppleGaramond";
+    background-color: rgb(16,203,215);
+    position: relative;
+    top: 70px;
+    left: 35px;
+}
+
+h1{
+font-size:32px;
+top: 100px;
+}
+
+h2{
+font-size:32px;}
+
+ul {
+    position: relative;
+    left: -40px;
+    top: 75px;
+font-size:30px;
+    text-decoration:none;}

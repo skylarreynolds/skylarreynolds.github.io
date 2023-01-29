@@ -22,20 +22,19 @@ body {
 }
 
 h1{
-font-size:35px;
-top: 80px;
+    font-size:32px;
+    top: 80px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
-h2{
-font-size:35px;}
-
-h3{
-font-size:35px;
-}
 
 ul {
     position: relative;
     left: -40px;
     top: 10px;
-font-size:35px;
-    text-decoration:none;}
+    font-size:28px;
+    text-decoration:none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
